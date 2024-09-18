@@ -19,16 +19,16 @@
 			)
 		)
 		(property "Value" "DF37NC-30DS-0.4V_51_"
-			(at -7.62 -22.86 0)
+			(at -0.254 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify bottom)
 			)
 		)
-		(property "Footprint" "_user:HRS_DF37NC-30DS-0.4V_51_"
-			(at 0 0 0)
+		(property "Footprint" "user:HRS_DF37NC-30DS-0.4V_51_"
+			(at 0.254 -31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +56,7 @@
 			)
 		)
 		(property "PARTREV" "11.02.09"
-			(at 0 0 0)
+			(at 0.254 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +66,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
+			(at 0.254 -34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +76,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.08mm"
-			(at 0 0 0)
+			(at 1.524 -36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,7 +86,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Hirose"
-			(at 0 0 0)
+			(at -6.858 -36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -97,8 +97,8 @@
 		)
 		(symbol "DF37NC-30DS-0.4V_51__0_0"
 			(rectangle
-				(start -7.62 -20.32)
-				(end 7.62 20.32)
+				(start -7.62 20.32)
+				(end 7.62 -20.32)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -828,7 +828,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 17.78 0)
+				(at -12.7 -17.78 0)
 				(length 5.08)
 				(name "01"
 					(effects
@@ -846,7 +846,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 17.78 180)
+				(at -12.7 -15.24 0)
 				(length 5.08)
 				(name "02"
 					(effects
@@ -864,7 +864,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 15.24 0)
+				(at -12.7 -12.7 0)
 				(length 5.08)
 				(name "03"
 					(effects
@@ -882,7 +882,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 15.24 180)
+				(at -12.7 -10.16 0)
 				(length 5.08)
 				(name "04"
 					(effects
@@ -900,7 +900,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 12.7 0)
+				(at -12.7 -7.62 0)
 				(length 5.08)
 				(name "05"
 					(effects
@@ -918,7 +918,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 12.7 180)
+				(at -12.7 -5.08 0)
 				(length 5.08)
 				(name "06"
 					(effects
@@ -936,7 +936,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 10.16 0)
+				(at -12.7 -2.54 0)
 				(length 5.08)
 				(name "07"
 					(effects
@@ -954,7 +954,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 10.16 180)
+				(at -12.7 0 0)
 				(length 5.08)
 				(name "08"
 					(effects
@@ -972,25 +972,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 7.62 0)
-				(length 5.08)
-				(name "09"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "09"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 7.62 180)
+				(at -12.7 5.08 0)
 				(length 5.08)
 				(name "10"
 					(effects
@@ -1008,7 +990,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 5.08 0)
+				(at -12.7 7.62 0)
 				(length 5.08)
 				(name "11"
 					(effects
@@ -1026,7 +1008,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 5.08 180)
+				(at -12.7 10.16 0)
 				(length 5.08)
 				(name "12"
 					(effects
@@ -1044,7 +1026,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 2.54 0)
+				(at -12.7 12.7 0)
 				(length 5.08)
 				(name "13"
 					(effects
@@ -1062,7 +1044,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 2.54 180)
+				(at -12.7 15.24 0)
 				(length 5.08)
 				(name "14"
 					(effects
@@ -1080,7 +1062,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 0 0)
+				(at -12.7 17.78 0)
 				(length 5.08)
 				(name "15"
 					(effects
@@ -1098,7 +1080,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 0 180)
+				(at 12.7 17.78 180)
 				(length 5.08)
 				(name "16"
 					(effects
@@ -1116,7 +1098,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -2.54 0)
+				(at 12.7 15.24 180)
 				(length 5.08)
 				(name "17"
 					(effects
@@ -1134,7 +1116,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -2.54 180)
+				(at 12.7 12.7 180)
 				(length 5.08)
 				(name "18"
 					(effects
@@ -1152,7 +1134,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -5.08 0)
+				(at 12.7 10.16 180)
 				(length 5.08)
 				(name "19"
 					(effects
@@ -1170,7 +1152,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -5.08 180)
+				(at 12.7 7.62 180)
 				(length 5.08)
 				(name "20"
 					(effects
@@ -1188,7 +1170,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -7.62 0)
+				(at 12.7 5.08 180)
 				(length 5.08)
 				(name "21"
 					(effects
@@ -1206,7 +1188,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -7.62 180)
+				(at 12.7 2.54 180)
 				(length 5.08)
 				(name "22"
 					(effects
@@ -1224,7 +1206,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -10.16 0)
+				(at 12.7 0 180)
 				(length 5.08)
 				(name "23"
 					(effects
@@ -1242,7 +1224,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -10.16 180)
+				(at 12.7 -2.54 180)
 				(length 5.08)
 				(name "24"
 					(effects
@@ -1260,7 +1242,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -12.7 0)
+				(at 12.7 -5.08 180)
 				(length 5.08)
 				(name "25"
 					(effects
@@ -1278,7 +1260,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -12.7 180)
+				(at 12.7 -7.62 180)
 				(length 5.08)
 				(name "26"
 					(effects
@@ -1296,7 +1278,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -15.24 0)
+				(at 12.7 -10.16 180)
 				(length 5.08)
 				(name "27"
 					(effects
@@ -1314,7 +1296,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -15.24 180)
+				(at 12.7 -12.7 180)
 				(length 5.08)
 				(name "28"
 					(effects
@@ -1332,7 +1314,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -17.78 0)
+				(at 12.7 -15.24 180)
 				(length 5.08)
 				(name "29"
 					(effects
@@ -1368,6 +1350,26 @@
 				)
 			)
 		)
+		(symbol "DF37NC-30DS-0.4V_51__1_0"
+			(pin passive line
+				(at -12.7 2.54 0)
+				(length 5.08)
+				(name "09"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "09"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
 	)
 	(symbol "ERM8-010-XX.X-X-DV-XX"
 		(pin_names
@@ -1394,7 +1396,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "_user:SAMTEC_ERM8-010-XX.X-X-DV-XX"
+		(property "Footprint" "user:SAMTEC_ERM8-010-XX.X-X-DV-XX"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1851,7 +1853,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "_user:AMPHENOL_F305-1A7H1-11006-E100"
+		(property "Footprint" "user:AMPHENOL_F305-1A7H1-11006-E100"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2064,7 +2066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_user:21-100156_T3255Y-8_ADI"
+		(property "Footprint" "user:ADI_21-100156_T3255Y-8"
 			(at 0 0 0)
 			(effects
 				(font
