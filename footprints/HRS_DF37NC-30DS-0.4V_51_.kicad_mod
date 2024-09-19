@@ -1305,4 +1305,15 @@
 		(layers "F.Cu")
 		(uuid "d04f62c3-de19-4522-8517-38699596b258")
 	)
+	(model "${KICAD_USER_LIBRARY}/3dmodels/DF37NC-30DS-0.4V_51_.step"
+		(offset
+			(xyz 10.9 17.45 1.37)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
 )
