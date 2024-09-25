@@ -1,4 +1,4 @@
-(footprint "21-100156_T3255Y-8_ADI"
+(footprint "ADI_21-100156_T3255Y-8"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -2054,5 +2054,16 @@
 		(size 3.2004 3.2004)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "6e144ea8-14d2-45ba-9a22-c04aa37a9464")
+	)
+	(model "${KICAD_USER_LIBRARY}/3dmodels/21-100156_T3255Y-8_ADI.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
