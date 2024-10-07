@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "MAX20049ATED/VY+ ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0.55 -3.05 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b6f53d52-3ddc-4b75-b64a-69adedcd06fc")

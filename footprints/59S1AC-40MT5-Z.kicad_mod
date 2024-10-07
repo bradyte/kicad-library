@@ -67,6 +67,90 @@
 		)
 	)
 	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.85 -3.7) (xy -0.85 -1.6) (xy -1.6 -0.85) (xy -3.7 -0.85) (xy -3.7 -2.54) (xy -2.54 -3.7)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "174068ac-5bf5-4ae2-8412-653acb35bd15")
+	)
+	(fp_poly
+		(pts
+			(xy 0.85 3.7) (xy 0.85 1.6) (xy 1.6 0.85) (xy 3.7 0.85) (xy 3.7 2.54) (xy 2.54 3.7)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "7f793713-7702-49e6-b1da-856d1dbbe9db")
+	)
+	(fp_poly
+		(pts
+			(xy 3.7 -0.85) (xy 1.6 -0.85) (xy 0.85 -1.6) (xy 0.85 -3.7) (xy 2.54 -3.7) (xy 3.7 -2.54)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "7468b480-e346-47d1-8032-6f6016c5aa99")
+	)
+	(fp_poly
+		(pts
+			(xy -0.85 -3.7) (xy -0.85 -1.6) (xy -1.6 -0.85) (xy -3.7 -0.85) (xy -3.7 -2.54) (xy -2.54 -3.7)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Cu")
+		(uuid "19ef400c-1505-4b1b-a83a-e192a2a3a42f")
+	)
+	(fp_poly
+		(pts
+			(xy 0.85 3.7) (xy 0.85 1.6) (xy 1.6 0.85) (xy 3.7 0.85) (xy 3.7 2.54) (xy 2.54 3.7)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Cu")
+		(uuid "34745a49-b92c-4613-b00d-1f4c00fd2556")
+	)
+	(fp_poly
+		(pts
+			(xy 3.7 -0.85) (xy 1.6 -0.85) (xy 0.85 -1.6) (xy 0.85 -3.7) (xy 2.54 -3.7) (xy 3.7 -2.54)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Cu")
+		(uuid "472aa0db-e119-487e-ab76-e04e7bd3d5e5")
+	)
+	(fp_poly
+		(pts
+			(xy -3.7 0.85) (xy -1.6 0.85) (xy -0.85 1.6) (xy -0.85 3.7) (xy -2.54 3.7) (xy -3.7 2.54)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "b3044977-0bff-4f88-bc64-3195309873e5")
+	)
 	(fp_line
 		(start -3.7 -2.55)
 		(end -3.7 -0.85)
@@ -323,6 +407,17 @@
 		(at 0 0)
 		(size 1.65 1.65)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
 		(uuid "1a16f1e9-4f2f-47ea-b649-a8c5299c7f9b")
 	)
 	(pad "2" thru_hole circle
@@ -345,7 +440,7 @@
 		(at -2.54 2.54)
 		(size 2.32 2.32)
 		(drill 1.5)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu")
 		(remove_unused_layers no)
 		(uuid "f1c7f6ff-0357-4571-b9c1-b1e724556cea")
 	)
@@ -356,6 +451,149 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "ac6a79b3-45b2-4bc2-8b1c-ad2510deb481")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "826f5b1d-464d-4b71-9f41-c161a58770b9")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -4.5 0.85) (xy -3.7 0.85) (xy -3.7 2.55) (xy -2.55 3.7) (xy -0.85 3.7) (xy -0.85 4.5) (xy -4.5 4.5)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "f1bf42a7-1a5d-4ee4-9072-5288604f2e68")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -0.85 -4.5) (xy -0.85 -3.7) (xy -2.55 -3.7) (xy -3.7 -2.55) (xy -3.7 -0.85) (xy -4.5 -0.85)
+				(xy -4.5 -4.5)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "30001b8b-f225-4cf4-a3d9-f97d0949173f")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0.85 4.5) (xy 0.85 3.7) (xy 2.55 3.7) (xy 3.7 2.55) (xy 3.7 0.85) (xy 4.5 0.85) (xy 4.5 4.5)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "62faa44b-43ea-4087-879c-275193cce20a")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 4.5 -0.85) (xy 3.7 -0.85) (xy 3.7 -2.55) (xy 2.55 -3.7) (xy 0.85 -3.7) (xy 0.85 -4.5) (xy 4.5 -4.5)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "d22b2c16-45f7-498d-b551-b97fcbd69c2b")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -4.5 -0.85) (xy -4.5 0.85) (xy -1.6 0.85) (xy -0.85 1.6) (xy -0.85 4.5) (xy 0.85 4.5) (xy 0.85 1.6)
+				(xy 1.6 0.85) (xy 4.5 0.85) (xy 4.5 -0.85) (xy 1.6 -0.85) (xy 0.85 -1.6) (xy 0.85 -4.5) (xy -0.85 -4.5)
+				(xy -0.85 -1.6) (xy -1.6 -0.85)
+			)
+		)
 	)
 	(model "${KICAD_USER_LIBRARY}/3dmodels/59s1ac-40mxx-z_d00_shrink.stp"
 		(offset
