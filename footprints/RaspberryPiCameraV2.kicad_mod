@@ -1,0 +1,256 @@
+(footprint "RaspberryPiCameraV2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.2 5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fa1ac8c5-e707-4054-b4d6-d7532e77fba8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RaspberryPiCameraV2"
+		(at -1.8 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "689a6594-3551-403f-bf05-233456ff1080")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b82fff7-b54b-46af-8811-0586fd642d10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbf44166-c90a-4192-89df-8365b27584c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6713196-f4bc-4973-9cfe-1274e59a8bf9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center -10.5 2)
+		(end -8.3 2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "3d7142e4-9a55-4e7e-bcfe-248cdcdbbaab")
+	)
+	(fp_circle
+		(center -10.5 14.5)
+		(end -8.3 14.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "92c87454-a56e-4455-b7cc-a83ce2763b51")
+	)
+	(fp_circle
+		(center 10.5 2)
+		(end 12.7 2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "aa6c68c7-c536-421b-bd16-72f3e241598c")
+	)
+	(fp_circle
+		(center 10.5 14.5)
+		(end 12.7 14.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "361cbbfd-0c8f-4d1c-96d0-a985824fd950")
+	)
+	(fp_circle
+		(center -10.5 2)
+		(end -8.05 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "1cf08175-8f02-4e58-a2d3-8a9d2306f7b3")
+	)
+	(fp_circle
+		(center -10.5 14.5)
+		(end -8.05 14.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "862fcd6e-a0df-4831-839e-70010d01daef")
+	)
+	(fp_circle
+		(center 10.5 2)
+		(end 12.95 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "bac39cfd-c103-4313-9a56-7f47346d3588")
+	)
+	(fp_circle
+		(center 10.5 14.5)
+		(end 12.95 14.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "10a80729-f14e-40f2-ad9c-6c31b8a487d0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -10.5 14.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f9bbe49-88ac-4ba7-a8c4-4bcdfa26c9a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5c143e87-4d5c-41c9-b33b-43ba74212717")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -8.25 2.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4d7109c-329e-48b9-9eee-e93c6cc899ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10.5 2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2b47329-8c83-47d8-8d59-21f659477bc7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10.5 14.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef4335a1-1b1e-46d5-817f-35f95cfcda65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -10.5 2)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "0640c133-b07d-4f95-8627-5c4fcca9a84d")
+	)
+	(pad "" np_thru_hole circle
+		(at -10.5 14.5)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a0c25ed3-0c9a-468a-8acc-19fae5548f97")
+	)
+	(pad "" np_thru_hole circle
+		(at 10.5 2)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "7147aa23-9752-43cc-9d61-ec1a29d9cffd")
+	)
+	(pad "" np_thru_hole circle
+		(at 10.5 14.5)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c1d2fce1-d2e1-4e64-84ac-990b5765d34c")
+	)
+	(model "${KICAD_USER_LIBRARY}/3dmodels/Cam V2.1 v1.step"
+		(offset
+			(xyz 0 -4.5 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 90 0)
+		)
+	)
+)
