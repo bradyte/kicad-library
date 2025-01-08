@@ -340,7 +340,7 @@
 		(at -2.54 -2.54)
 		(size 2.32 2.32)
 		(drill 1.5)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(options
 			(clearance outline)
@@ -361,7 +361,7 @@
 		(at 2.54 -2.54)
 		(size 2.32 2.32)
 		(drill 1.5)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(options
 			(clearance outline)
@@ -382,7 +382,7 @@
 		(at -2.55 2.55 270)
 		(size 2.32 2.32)
 		(drill 1.5)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(options
 			(clearance outline)
@@ -403,7 +403,7 @@
 		(at 2.54 2.54)
 		(size 2.32 2.32)
 		(drill 1.5)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(options
 			(clearance outline)
