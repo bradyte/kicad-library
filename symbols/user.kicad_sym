@@ -4336,7 +4336,7 @@
 			)
 		)
 		(property "Footprint" "user:SAMTEC_ERM8-010-XX.X-X-DV-XX"
-			(at 0 0 0)
+			(at -0.762 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4374,7 +4374,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
+			(at 1.016 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,8 +4405,10 @@
 					(type background)
 				)
 			)
+		)
+		(symbol "ERM8-010-XX.X-X-DV-XX_1_0"
 			(pin passive line
-				(at -12.7 12.7 0)
+				(at 12.7 12.7 180)
 				(length 5.08)
 				(name "01"
 					(effects
@@ -4424,7 +4426,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 12.7 180)
+				(at -12.7 12.7 0)
 				(length 5.08)
 				(name "02"
 					(effects
@@ -4442,7 +4444,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 10.16 0)
+				(at 12.7 10.16 180)
 				(length 5.08)
 				(name "03"
 					(effects
@@ -4460,7 +4462,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 10.16 180)
+				(at -12.7 10.16 0)
 				(length 5.08)
 				(name "04"
 					(effects
@@ -4478,7 +4480,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 7.62 0)
+				(at 12.7 7.62 180)
 				(length 5.08)
 				(name "05"
 					(effects
@@ -4496,7 +4498,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 7.62 180)
+				(at -12.7 7.62 0)
 				(length 5.08)
 				(name "06"
 					(effects
@@ -4514,7 +4516,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 5.08 0)
+				(at 12.7 5.08 180)
 				(length 5.08)
 				(name "07"
 					(effects
@@ -4532,7 +4534,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 5.08 180)
+				(at -12.7 5.08 0)
 				(length 5.08)
 				(name "08"
 					(effects
@@ -4550,7 +4552,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 2.54 0)
+				(at 12.7 2.54 180)
 				(length 5.08)
 				(name "09"
 					(effects
@@ -4568,7 +4570,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 2.54 180)
+				(at -12.7 2.54 0)
 				(length 5.08)
 				(name "10"
 					(effects
@@ -4586,7 +4588,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 0 0)
+				(at 12.7 0 180)
 				(length 5.08)
 				(name "11"
 					(effects
@@ -4604,7 +4606,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 0 180)
+				(at -12.7 0 0)
 				(length 5.08)
 				(name "12"
 					(effects
@@ -4622,7 +4624,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -2.54 0)
+				(at 12.7 -2.54 180)
 				(length 5.08)
 				(name "13"
 					(effects
@@ -4640,7 +4642,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -2.54 180)
+				(at -12.7 -2.54 0)
 				(length 5.08)
 				(name "14"
 					(effects
@@ -4658,7 +4660,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -5.08 0)
+				(at 12.7 -5.08 180)
 				(length 5.08)
 				(name "15"
 					(effects
@@ -4676,7 +4678,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -5.08 180)
+				(at -12.7 -5.08 0)
 				(length 5.08)
 				(name "16"
 					(effects
@@ -4694,7 +4696,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -7.62 0)
+				(at 12.7 -7.62 180)
 				(length 5.08)
 				(name "17"
 					(effects
@@ -4712,7 +4714,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -7.62 180)
+				(at -12.7 -7.62 0)
 				(length 5.08)
 				(name "18"
 					(effects
@@ -4730,7 +4732,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -10.16 0)
+				(at 12.7 -10.16 180)
 				(length 5.08)
 				(name "19"
 					(effects
@@ -4748,7 +4750,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -10.16 180)
+				(at -12.7 -10.16 0)
 				(length 5.08)
 				(name "20"
 					(effects
@@ -6648,6 +6650,153 @@
 					(effects
 						(font
 							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "RPI-CAM-V2_1"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RPI-CAM-V2_1"
+			(at 0.508 -10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "user:RPI-CAM-V2_1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "RPI-CAM-V2_1_0_1"
+			(rectangle
+				(start -3.81 -1.27)
+				(end 6.35 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -1.27) (xy -5.08 -1.27) (xy -5.08 -8.89) (xy 6.35 -8.89) (xy 6.35 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "RPI-CAM-V2_1_1_1"
+			(pin no_connect line
+				(at -7.62 -3.81 0)
+				(length 2.54)
+				(name "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 8.89 -3.81 180)
+				(length 2.54)
+				(name "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -7.62 -7.62 0)
+				(length 2.54)
+				(name "MH3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 8.89 -7.62 180)
+				(length 2.54)
+				(name "MH4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)

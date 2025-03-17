@@ -378,4 +378,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "388bdd29-fcf0-4c84-a946-db7cdb21087a")
 	)
+	(model "${KICAD_USER_LIBRARY}/3dmodels/ERM8-010-XX.X-X-DV-XX.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
